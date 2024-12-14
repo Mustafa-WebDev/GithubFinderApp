@@ -1,0 +1,64 @@
+body {
+    background-color: #141D2F; /* Dark background */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    background-color: #1F2A48;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90%;
+    max-width: 600px;
+}
+.search-container input {
+    background-color: #1F2A48;
+    border: none;
+    color: white;
+    flex-grow: 1;
+}
+.search-container input:focus {
+    outline: none;
+}
+.search-container button {
+    background-color: #0079FF;
+    border: none;
+    color: white;
+}
+.profile-card {
+    background-color: #1F2A48;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.profile-card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+.stats {
+    display: flex;
+    justify-content: space-between;
+    background-color: #141D2F;
+    padding: 10px;
+    border-radius: 10px;
+}
+.stats div {
+    text-align: center;
+}
+.text-muted {
+    color: #8B949E !important;
+}
+a {
+    color: #0079FF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
